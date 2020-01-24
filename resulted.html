@@ -1,0 +1,33 @@
+<html>
+  <style>
+  img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  </style>
+
+
+        <body>
+
+                {% elif prediction == 1 %}
+                <h1>Recommended Career is Businessman !!!</h1>
+                <img src ="18203015.jpg">
+
+                {% elif prediction == 2 %}
+                <h1>Recommended Career is Trainer!!! </h1>
+                <img src ="trainee.jpg">
+
+                {%  elif prediction == 3 %}
+                <h1> Recommended Career is Sports!!! </h1>
+                <img src ="Sports.jpg">
+
+                {%  elif prediction == 4 %}
+                <h1> Recommended Career is Education ex. Medical ,Engineering!!!</h1>
+                <img src ="edu.jpg">
+
+                {% else %}
+                <h1> value is none </h1>
+                {% endif %}
+        </body>
+</html>
